@@ -1,0 +1,9 @@
+.wrap {
+  padding: var(--spacing-5);
+  margin: 0;
+  width: 400px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: var(--main-fg-color);
+  background-color: var(--main-bg-color);
+}

@@ -1,0 +1,14 @@
+.wrap {
+  background: transparent;
+  border: 1px solid var(--main-action-color);
+  border-radius: var(--spacing-2);
+  color: var(--main-fg-color);
+  padding: var(--spacing-2);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.wrap:hover {
+  background-color: var(--main-action-color);
+  color: var(--main-bg-color);
+}

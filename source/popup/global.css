@@ -1,0 +1,17 @@
+:global(body) {
+  margin: 0;
+  padding: 0;
+  background-color: var(--main-bg-color);
+}
+
+:root {
+  --main-dark-color: #444;
+  --main-bg-color: #042940;
+  --main-fg-color: #f0f5f0;
+  --main-action-color: #f4607f;
+  --spacing-1: 2px;
+  --spacing-2: 4px;
+  --spacing-3: 6px;
+  --spacing-4: 10px;
+  --spacing-5: 14px;
+}

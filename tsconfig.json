@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./source",
+    "alwaysStrict": true,
+    "target": "es6",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "outDir": "./build/",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "strict": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact",
+    "types": ["@types/chrome", "node"],
+    "paths": {
+      "popup/*": ["popup/*"],
+      "script/*": ["script/*"],
+      "common/*": ["common/*"]
+    }
+  },
+  "include": ["./source/**/*"],
+  "exclude": ["./source/**/*.test"]
+}

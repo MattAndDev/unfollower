@@ -1,0 +1,27 @@
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--spacing-5);
+}
+
+.item {
+  padding: var(--spacing-3);
+  border-bottom: 1px solid var(--main-fg-color);
+}
+
+.item:last-child {
+  border-bottom: none;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: var(--spacing-5) 0;
+}
