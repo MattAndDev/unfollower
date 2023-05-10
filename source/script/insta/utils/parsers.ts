@@ -5,7 +5,7 @@ export const parseAppId = () => {
 }
 
 export const parseUserId = () => {
-  const userId = document.body.outerHTML.match(/appUid":"(\d+)/)
+  const userId = document.body.outerHTML.match(/actorID":"(\d+)/)
   if (!userId) return null
   return userId[1]
 }
